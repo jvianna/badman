@@ -22,6 +22,15 @@ body {
 	letter-spacing: 1px;
 }
 
+/* iPhone 5 in landscape and portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+	#fixed-header {
+		font-size: 20px;
+		letter-spacing: 1px;
+		top: 30%;
+	}
+}
+
 .cb-slideshow,
 .cb-slideshow:after {
     position: fixed;
